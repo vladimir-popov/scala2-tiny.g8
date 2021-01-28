@@ -1,6 +1,5 @@
 lazy val `$name$` = (project in file("."))
   .settings(		
-		organization := "$organization$",
     version := "0.1.0-SNAPSHOT",
 		scalaVersion := "$scala_version$",
 		scalacOptions += "-Ymacro-annotations",
